@@ -3,25 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FSW Kelas-2</title>
     <style>
-        .p {
-            background-color: blueviolet;
+        *{
+            margin: 20px;
+            padding: 0;
+            font-family: Helvetica;
+        }
+        .header {
+            font-family: 'Times New Roman';
+            text-align: center;
+            color: brown;
+
+
         }
         
-        @media (max-width: 600px) {
-            .p {
+        .container {
+            /* float: left;
+            width: 20%;
+            padding: 10px 15px; */
+            
+            margin-top: 7px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .p1{
+            font-size: 14px;
+            margin: 0px 7px;
+            text-align: justify;
+            border: 1px;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color:cadetblue;
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+        /* .p1.active{
+            color:blue;
+        } */
+        .p1:hover{
+            color:blue;
+        }
+        .p2{
+            font-size: 14px;
+            margin: 0px 7px;
+            text-align: justify;
+            border: 1px;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color:cadetblue;
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+        .p3{
+            font-size: 14px;
+            margin: 0px 7px;
+            text-align: justify;
+            border: 1px;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color:cadetblue;
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+        .p4{
+            font-size: 14px;
+            margin: 0px 7px;
+            text-align: justify;
+            border: 1px;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color:cadetblue;
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+        .p5{
+            font-size: 14px;
+            margin: 0px 7px;
+            text-align: justify;
+            border: 1px;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color:cadetblue;
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+        @media (max-width: 1024px) {
+            .container {
+                display: grid;
+            }
+            .p1{
+                height: 40;
+                font-family: 'Cambria';
+                font-size: 18px;
+                margin: 14px 50px;
+                color: black;
                 background-color: yellow;
-            } 
+            }
+            .p2{
+                height: 40;
+                font-family: 'Cambria';
+                font-size: 18px;
+                margin: 14px 50px;
+                color: black;
+                background-color:darkgrey;
+            }
+            .p3{
+                height: 40;
+                font-family: 'Cambria';
+                font-size: 18px;
+                margin: 14px 50px;
+                color: black;
+                background-color:lightblue;
+            }
+            .p4{
+                height: 40;
+                font-family: 'Cambria';
+                font-size: 18px;
+                margin: 14px 50px;
+                color: black;
+                background-color:orange;
+            }
+            .p5{
+                font-family: 'Cambria';
+                font-size: 18px;
+                margin: 14px 50px;
+                color: black;
+                background-color:pink;
+            }
+        }
+        @media (max-width: 768px) {
+            .container {
+                display: grid;
+            }
+            .p1, .p2, .p3, .p4, .p5 {
+                font-family: google sans;
+                font-size: 20px;
+                margin: 18px 7px;
+                color: #aeff00;
+                background-color: rgb(59, 0, 238);
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Hellow FSW 2</h1>
-    <div class="h1 p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
-    <div class="h1 p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
-    <div class="h1 p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
-    <div class="h1 p4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
-    <div class="h1 p5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
+    <h1 id="header" class="header">Fullstack Web Debeloper Kelas-2</h1>
+    <br>
+    <div class="container">
+        <div class="p1">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.
+        </div>
+   
+        <div class="p2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.
+        </div>
+
+        <div class="p3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.
+        </div>
+        
+        <div class="p4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.
+        </div>
+
+        <div class="p5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.
+        </div>
+    </div>
 </body>
 </html>
